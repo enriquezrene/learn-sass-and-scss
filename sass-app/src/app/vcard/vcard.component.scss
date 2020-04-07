@@ -1,0 +1,57 @@
+.contact-card {
+    background-color: white;
+    max-width: 600px;
+    padding: 5%;
+    margin: 0;
+}
+
+.contact-header {
+    color: white;
+    background-color: #128fc2;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-body{
+    display: flex;
+    padding: 15px;
+    flex-wrap: row;
+    border-bottom: 1px solid black;
+}
+
+.contact-details {
+    margin: 15px;
+    h1, h2, h3 {
+        font-weight: normal;
+    }
+}
+
+.contact-footer {
+    text-align: right;
+    padding: 15px;
+    button {
+        background-color: white;
+        border: 1px solid #128fc2;
+        color: #128fc2;
+        &:hover,
+        &:focus {
+            background-color: #128fc2;
+            border: white;
+            color: white
+        }
+    }
+}
+
+.contact-photo {
+    margin-right: 15px;
+    img {
+        max-width: 200;
+        height: auto;
+    }
+}
+
+button {
+    min-width: 100px;
+    padding: 10px;
+    font-size: 12px;
+}
