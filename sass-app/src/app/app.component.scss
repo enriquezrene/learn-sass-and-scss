@@ -1,8 +1,10 @@
+@import './settings';
+
 .todo-header {
-    background-color: #128fc2;
+    background-color: $light-blue;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: $default-padding;
     h1 {
         margin: 0;
         padding: 0;
@@ -23,17 +25,17 @@
         padding: 0;
         font-weight: normal;
         li {
-            padding: 15px;
+            padding: $default-padding;
             display: flex;
             justify-content: space-between;
             align-items: center;
             button {
                 background-color: white;
-                border: 1px solid #dc3545;
-                color: #dc3545;
+                border: 1px solid $warning-red;
+                color: $warning-red;
                 &:hover,
                 &:focus {
-                    background-color: #dc3545;
+                    background-color: $warning-red;
                     border: white;
                     color: white;
                 }
@@ -44,7 +46,7 @@
 }
 
 .todo-footer  {
-    padding: 15px;
+    padding: $default-padding;
     display: flex;
     input {
         // ocupa todo el ancho
@@ -55,11 +57,11 @@
     
     button {
         background-color: white;
-        border: 1px solid #007bff;
-        color: #007bff;
+        border: 1px solid $info-blue;
+        color: $info-blue;
         &:hover,
         &:focus {
-            background-color: #007bff;
+            background-color: $info-blue;
             border: white;
             color: white
         }
